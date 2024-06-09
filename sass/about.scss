@@ -1,0 +1,31 @@
+.section-about {
+  background-color: #212d37;
+}
+.content__about {
+  display: grid;
+  grid-template-columns: 1fr .5fr;
+  grid-column-gap: 1.5rem;
+  padding: 9.6rem 1rem;
+}
+.img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about__img {
+  width: 100%;
+}
+.about-sub {
+  color: #fff;
+  font-size: 1.6rem;
+}
+.about-heading {
+  font-size: 6rem;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+.margin {
+  margin-bottom: 2rem;
+}

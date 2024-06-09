@@ -1,0 +1,26 @@
+:root {
+  --color-primary: #0ee951;
+  --color-white: #fff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+body {
+  color: #212529;
+  font-weight: 400;
+}
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+.heading__primary {
+  font-size: 3.2rem;
+  font-weight: 500;
+}
