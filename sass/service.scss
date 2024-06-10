@@ -26,6 +26,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 3.2rem;
+  padding: 0 2rem;
 }
 .service__icon {
   width: 4rem;
