@@ -2,45 +2,49 @@
   background-color: #212d37;
   padding-bottom: 3rem;
 }
+
 .flex-2 {
   display: flex;
   align-items: center;
   gap: 1rem;
   margin-bottom: 2rem;
 }
+
 .plan {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 3.2rem;
   padding: 0 2rem;
-
-  @media only screen and (max-width: $bp-large) {
-    grid-template-columns: repeat(1, 1fr);
-  }
 }
+
 .plan__heading {
   font-size: 2.5rem;
   font-weight: 500;
   color: #fff;
 }
+
 .plan-icon {
   width: 1.8rem;
   height: 1.8rem;
 }
+
 .plan-box {
   padding: 2rem;
   border: 2px solid #fff;
 }
+
 .plan-text {
   font-size: 1.6rem;
   color: #fff;
 }
+
 .price {
   color: #fff;
   font-size: 2.5rem;
   font-weight: 400;
   margin: 3.2rem 0;
 }
+
 .margin--2 {
   margin: 3rem 0;
-}
+}/*# sourceMappingURL=plan.css.map */
