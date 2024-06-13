@@ -772,6 +772,7 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 5rem;
+  padding: 0 2rem;
 }
 @media only screen and (max-width: 58.13em) {
   .footer__box {
