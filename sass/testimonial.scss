@@ -35,6 +35,10 @@
 .author-img {
   border-radius: 50%;
   width: 35%;
+
+  @media only screen and (max-width: $bp-small) {
+    width: 25%;
+  }
 }
 
 .author-name,

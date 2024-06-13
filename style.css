@@ -497,6 +497,11 @@ body {
   border-radius: 50%;
   width: 35%;
 }
+@media only screen and (max-width: 34.38em) {
+  .author-img {
+    width: 25%;
+  }
+}
 
 .author-name,
 .author-position {
