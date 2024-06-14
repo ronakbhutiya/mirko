@@ -559,8 +559,6 @@ body {
 
 .input-box {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .section-contact {
